@@ -7,6 +7,7 @@ po podaniu wieku program ma wypisywać: 'masz XX lat'/'you are XX'*/
 #include <stdio.h>
 
 int main(void) {
+    printf("Hello World\n");
     printf("ile masz lat?\n");
 
   int wiek,age; //deklaracja zmiennej int
