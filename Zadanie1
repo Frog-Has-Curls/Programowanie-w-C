@@ -1,3 +1,9 @@
+/*napisz program, który wypisuje na ekran 'Hello world'
+zmodyfikuj program tak żeby pytał o wiek
+po podaniu wieku program ma wypisywać: 'masz XX lat'/'you are XX'*/
+
+
+
 #include <stdio.h>
 
 int main(void) {
