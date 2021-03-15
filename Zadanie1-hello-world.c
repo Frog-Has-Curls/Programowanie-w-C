@@ -10,7 +10,7 @@ int main(void) {
     printf("Hello World\n");
     printf("ile masz lat?\n");
 
-  int wiek,age; //deklaracja zmiennej int
+  int wiek; //deklaracja zmiennej int
   scanf("%d", &wiek);//wpisana zmienna jest int, ma nazwe wiek
 
     printf("Masz %d lat/you are %d ",wiek,wiek);
