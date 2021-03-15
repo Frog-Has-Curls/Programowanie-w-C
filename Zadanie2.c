@@ -1,3 +1,4 @@
+//Napisz program, który wypisuje kod ASCII litery 'a'
 #include<stdio.h> 
 int main() 
 { 
