@@ -18,9 +18,9 @@ WIELKIMI literami oznaczono zmienne wraz z ilością miejsca, które mają zajmo
 int main(void) {
 
 char koszula, cokolwiek; 
-int wiek;
+int wiek, wzrost;
 
-float wzrost, sto;
+float sto;
 
   printf("Co wiesz o Janku?\n");
     scanf("%[^\n]s",&cokolwiek);
@@ -29,14 +29,19 @@ float wzrost, sto;
     scanf("%d",&wiek);
   
   printf("Jaki ma wzrost Janek w cm?\n");
-    scanf("%f", &wzrost);
+    scanf("%d", &wzrost);
   
   printf("Jaki jest rozmiar koszuli Janka?\n");
     scanf(" %c", &koszula);
 
   sto=wzrost/33;
-  
-    printf("Janek ma %d lat i nosi koszulę rozmiaru %c. Janek ma %0.1f stóp wzrostu.\n",wiek,koszula,sto);
+  if (wiek <0|| wzrost < 0) {
+  printf("Wpisz dodatnią wartość wzrostu oraz wieku");
+}
+  else{
+     printf("Janek ma %d lat i nosi koszulę rozmiaru %c. Janek ma %0.1f stóp wzrostu.\n",wiek,koszula,sto);
+  }
+   
 
   return 0;
 }
