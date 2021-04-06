@@ -20,4 +20,5 @@ while(i<=licz){
 printf("%d \n",i);
 i++;
 }
+  return 0;
 }
