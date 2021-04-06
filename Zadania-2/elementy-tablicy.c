@@ -8,7 +8,7 @@ Wypisz elementy tej tablicy. Jakie wartości wypisano?*/
 #include<stdio.h>
 int main(void){
 
-int a,b,c,d,e;
+
 int tab[5];
 printf("podaj 5 liczb do tablicy oddzielone przecinkiem\n");
 scanf("%d,%d,%d,%d,%d",&tab[0],&tab[1],&tab[2],&tab[3],&tab[4]);
