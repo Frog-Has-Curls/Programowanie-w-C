@@ -10,6 +10,7 @@ wiadomo, że użytkownik podaje liczby całkowite, ale nie jest powiedziane, czy
 OGRANICZENIE: poza liczbą pierwszą nie wolno korzystać z instrukcji warunkowej if else. Ale da się też zrobić liczbę pierwszą samym switchem z 1 casem :)*/
 
 #include  <stdio.h>
+#include <stdlib.h>
    
 int checkprime(int num){
   int y,j=0,result;
@@ -29,13 +30,19 @@ int checkprime(int num){
 return result;
 }
 
-
 int main(void){
 int k,n,i;
 
 printf("Podaj 2 liczby dodatnie\n");
   scanf("%d, %d",&k, &n);
-
+switch(n){
+  case 0 ... 1000: printf("\n");void abort(void);
+  default:printf("Liczby muszą być dodatnie! \n"), abort();
+}
+switch(k){
+  case 0 ... 1000: printf("\n");break;
+  default:printf("Liczby muszą być dodatnie! \n"), abort();
+}
   for(i=k; i<=n; i++){
 
 switch (i % 2){
